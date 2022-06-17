@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const service = require("../services/payments-service");
+//const service = require("../services/payments-service");
 
 /* GET payments quality check. */
 router.get("/ping", async function (req, res, next) {
