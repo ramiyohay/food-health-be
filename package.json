@@ -1,7 +1,18 @@
 {
-  "name": "flywire-be",
-  "version": "0.0.0",
+  "name": "food-health-be",
+  "version": "1.0.0",
   "private": true,
+  "description": "food health be.",
+  "main": "app.js",
+  "keywords": [
+    "food",
+    "heroku"
+  ],
+  "engines": {
+    "node": "16.x"
+  },
+  "author": "jane-doe",
+  "license": "MIT",
   "scripts": {
     "start": "node ./bin/www",
     "test": "jest"
